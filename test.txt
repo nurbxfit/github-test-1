@@ -1,1 +1,11 @@
-sajcbjancsamcmsamckmsa
+Hello Github:
+
+how to use github ?
+ init a folder to be upload to github using command: git init .
+ note that: . means current directory.
+ configure local git mach‌ine to connect to github using command:
+ git config --global user.name "nurbxfit" ;// note that nurbxfit is my github username
+ git config --global user.email "myemail@example.com" ; // note that email is example of my email.
+ git remote add origin url ;// change url with github url; 'origin' can be changed into anything
+ git commit -m "something "
+ git push -u origin master ;// master is master branch
